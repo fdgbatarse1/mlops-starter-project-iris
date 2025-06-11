@@ -1,3 +1,7 @@
+# MLFlow
+mlruns/*
+mlartifacts/*
+
 # Data files
 data/*
 !data/.gitignore
