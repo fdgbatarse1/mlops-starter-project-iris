@@ -74,4 +74,6 @@ run-pipeline: ## Run the complete ML pipeline
 	python src/load_data.py
 	python src/split_dataset.py --test_size 0.2
 	python src/train.py
+
+run-evaluation:
 	python src/evaluate.py
